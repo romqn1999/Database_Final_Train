@@ -8,3 +8,13 @@ C:\Users\Tran Dinh Ton Hieu\Documents\Visual Studio 2017\Projects\TH_CSDL_Train\
 C:\Users\Tran Dinh Ton Hieu\Documents\Visual Studio 2017\Projects\TH_CSDL_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.exe
 C:\Users\Tran Dinh Ton Hieu\Documents\Visual Studio 2017\Projects\TH_CSDL_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.pdb
 C:\Users\Tran Dinh Ton Hieu\Documents\Visual Studio 2017\Projects\TH_CSDL_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.form_Login.resources
+C:\train\Database_Final_Train\TH_CSDL_Train\bin\Debug\TH_CSDL_Train.exe.config
+C:\train\Database_Final_Train\TH_CSDL_Train\bin\Debug\TH_CSDL_Train.exe
+C:\train\Database_Final_Train\TH_CSDL_Train\bin\Debug\TH_CSDL_Train.pdb
+C:\train\Database_Final_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.csprojAssemblyReference.cache
+C:\train\Database_Final_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.form_Login.resources
+C:\train\Database_Final_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.Properties.Resources.resources
+C:\train\Database_Final_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.csproj.GenerateResource.cache
+C:\train\Database_Final_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.csproj.CoreCompileInputs.cache
+C:\train\Database_Final_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.exe
+C:\train\Database_Final_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.pdb
