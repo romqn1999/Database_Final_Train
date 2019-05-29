@@ -16,7 +16,7 @@ namespace TH_CSDL_Train
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new form_Login());
         }
     }
 }

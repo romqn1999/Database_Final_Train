@@ -52,6 +52,18 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin_HocPhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_HocPhan.Designer.cs">
+      <DependentUpon>Admin_HocPhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_LopHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_LopHoc.Designer.cs">
+      <DependentUpon>Admin_LopHoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin_MonHoc.cs">
       <SubType>Form</SubType>
     </Compile>

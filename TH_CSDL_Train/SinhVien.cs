@@ -16,5 +16,10 @@ namespace TH_CSDL_Train
         {
             InitializeComponent();
         }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

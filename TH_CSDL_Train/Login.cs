@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TH_CSDL_Train
 {
-    public partial class Form1 : Form
+    public partial class form_Login : Form
     {
-        public Form1()
+        public form_Login()
         {
             InitializeComponent();
         }
