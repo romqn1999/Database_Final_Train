@@ -12,6 +12,8 @@ namespace TH_CSDL_Train
 {
     public partial class form_Login : Form
     {
+        DBUtils database;
+
         public form_Login()
         {
             InitializeComponent();
@@ -19,7 +21,40 @@ namespace TH_CSDL_Train
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            string connectionString = @"Data Source = DESKTOP-4SHP37S; Initial Catalog = QLSV;
+            User ID = sa; Password = tonhieu123";
+            database = new DBUtils(connectionString);
+        }
 
+        private void btn_Login_Click(object sender, EventArgs e)
+        {
+            string username = tb_Username.Text.ToString();
+            string password = tb_Password.Text.ToString();
+
+            DataTable dataTable = database.Query("select * from TAIKHOAN where id = @id and pass = @pass",
+                new Object[,] { { "@id", username }, { "@pass", password } });
+
+            if (dataTable.Rows.Count == 1)
+            {
+                MessageBox.Show("Đăng nhập thành công!");
+
+                if (username == "admin")
+                {
+                    Admin adminForm = new Admin();
+                    adminForm.Show();
+                    this.Close();
+                }
+                else
+                {
+                    SinhVien studentForm = new SinhVien();
+                    studentForm.Show();
+                    this.Close();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!");
+            }
         }
     }
 }

@@ -8,13 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace TH_CSDL_Train
-{
+{    
     public partial class Admin : Form
     {
+        DBUtils database;
+
         public Admin()
         {
             InitializeComponent();
+        }
+
+        private void Admin_Load(object sender, EventArgs e)
+        {            
         }
     }
 }

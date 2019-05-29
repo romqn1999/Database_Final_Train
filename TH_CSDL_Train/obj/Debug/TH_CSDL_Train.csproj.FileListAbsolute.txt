@@ -8,3 +8,5 @@ C:\Users\Tran Dinh Ton Hieu\Documents\Visual Studio 2017\Projects\TH_CSDL_Train\
 C:\Users\Tran Dinh Ton Hieu\Documents\Visual Studio 2017\Projects\TH_CSDL_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.exe
 C:\Users\Tran Dinh Ton Hieu\Documents\Visual Studio 2017\Projects\TH_CSDL_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.pdb
 C:\Users\Tran Dinh Ton Hieu\Documents\Visual Studio 2017\Projects\TH_CSDL_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.form_Login.resources
+C:\Users\Tran Dinh Ton Hieu\Documents\Visual Studio 2017\Projects\TH_CSDL_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.Admin.resources
+C:\Users\Tran Dinh Ton Hieu\Documents\Visual Studio 2017\Projects\TH_CSDL_Train\TH_CSDL_Train\obj\Debug\TH_CSDL_Train.SinhVien.resources
