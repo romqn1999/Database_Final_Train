@@ -12,7 +12,7 @@ namespace TH_CSDL_Train
 {
     public partial class form_Login : Form
     {
-        DBUtils database;
+        static public DBUtils database;
 
         public form_Login()
         {
@@ -42,13 +42,15 @@ namespace TH_CSDL_Train
                 {
                     Admin adminForm = new Admin();
                     adminForm.Show();
-                    this.Close();
+                    //this.Visible = false;
+                    this.Hide();
                 }
                 else
                 {
-                    SinhVien studentForm = new SinhVien();
+                    SinhVien studentForm = new SinhVien(username, password);
                     studentForm.Show();
-                    this.Close();
+                    //this.Visible = false;
+                    this.Hide();
                 }
             }
             else

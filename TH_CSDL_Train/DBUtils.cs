@@ -8,7 +8,7 @@ using System.Data;
 
 namespace TH_CSDL_Train
 {
-    class DBUtils
+    public class DBUtils
     {
         private SqlConnection connection;
 

@@ -269,6 +269,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Admin";
             this.Text = "Admin";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Admin_FormClosing);
             this.Load += new System.EventHandler(this.Admin_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage_SinhVien.ResumeLayout(false);

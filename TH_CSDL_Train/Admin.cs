@@ -13,15 +13,23 @@ namespace TH_CSDL_Train
 {    
     public partial class Admin : Form
     {
-        DBUtils database;
+        static public DBUtils database;
 
         public Admin()
         {
             InitializeComponent();
+
+            database = form_Login.database;
         }
 
         private void Admin_Load(object sender, EventArgs e)
         {            
+
+        }
+
+        private void Admin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Environment.Exit(1);
         }
     }
 }
