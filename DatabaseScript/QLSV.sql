@@ -63,7 +63,6 @@ alter table lop_monhoc add
 
 alter table dangky add
 	constraint pk_dangky primary key (malop, mamon, mssv),
-	constraint fk_dangky_malop foreign key (malop) references lop(malop),
-	constraint fk_dangky_mamon foreign key (mamon) references monhoc(mamon),
+	constraint fk_dangky_malop_mamon foreign key (malop, mamon) references dangky(malop, mamon),
 	constraint fk_dangky_mssv foreign key (mssv) references sinhvien(mssv)
 
