@@ -21,5 +21,10 @@ namespace TH_CSDL_Train
         {
 
         }
+
+        private void tabPage_Edit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
