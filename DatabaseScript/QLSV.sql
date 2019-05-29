@@ -43,12 +43,12 @@ create table dangky
 )
 
 
-alter table sinhvien add
-	constraint pk_sinhvien primary key (mssv)
-
 alter table taikhoan add
-	constraint pk_taikhoan primary key (id),
-	constraint fk_taikhoan_id foreign key (id) references sinhvien(mssv)
+	constraint pk_taikhoan primary key (id)
+
+alter table sinhvien add
+	constraint pk_sinhvien primary key (mssv),
+	constraint fk_sinhvien_mssv foreign key (mssv) references taikhoan(id)
 
 alter table lop add
 	constraint pk_lop primary key (malop)
